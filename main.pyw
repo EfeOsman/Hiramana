@@ -49,8 +49,6 @@ class HiraMana:
 		def normalForm():
 			self.widgets["Normal"]["tabframe"] = Frame(self.root)
 			self.widgets["Normal"]["frame"]    = Frame(self.widgets["Normal"]["tabframe"], bg="gray")
-			#Frame(self.widgets["Normal"]["tabframe"],bg="black").pack(side=LEFT, fill=BOTH)
-			#Frame(self.widgets["Normal"]["tabframe"],bg="black").pack(side=TOP, fill=BOTH)
 			for hc in self.normal:
 				path = os.path.join("sounds",f"{self.hiraganaMap[hc]}.mp3") # Safe way of paths
 				hiraButton = Button(self.widgets["Normal"]["frame"])
