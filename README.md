@@ -1,4 +1,4 @@
 # Hiramana
 Hiragana teaching app
 # Modules
-playsound
+playsound, Tix(tkinter), Ttk(tkinter)
